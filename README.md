@@ -1,16 +1,46 @@
-# React + Vite
+💸 Expense Tracking Website (NORTON)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app to track expenses, set monthly goals, and monitor savings with clear visual insights.
 
-Currently, two official plugins are available:
+📄 Pages Overview
+🏠 Tracking
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Add daily expenses (title + amount)
 
-## React Compiler
+Expenses are saved with date
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Data persists even after refresh
 
-## Expanding the ESLint configuration
+🎯 Targets
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Set monthly budget and saving goal
+
+Targets are saved on submit
+
+Used to calculate savings progress
+
+💰 Saving
+
+Shows savings based on expenses and targets
+
+Displays last 3 active months in a bar chart
+
+Only months with real data are shown
+
+📊 Spending
+
+Shows complete expense history
+
+Acts as a log of all tracked expenses
+
+🛠 Tech Stack
+
+1.React (Vite)
+
+2.React Router
+
+3.Context API
+
+4.Chart.js
+
+5.Tailwind CSS
